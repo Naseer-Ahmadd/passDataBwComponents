@@ -1,0 +1,11 @@
+
+<!-- <div class="messagelist"*ngFor="let m of messagelist ">  
+   {{ m.msg }}  
+</div>  -->
+
+<app-header (newItemEvent)="addItem($event)"></app-header>
+<h3>footer component receiving value</h3>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
